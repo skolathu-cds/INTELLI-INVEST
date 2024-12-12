@@ -1,0 +1,9 @@
+langchain-openai
+langchain
+langgraph
+streamlit
+yfinance
+langchain_community
+yahooquery
+tavily-python
+requests
