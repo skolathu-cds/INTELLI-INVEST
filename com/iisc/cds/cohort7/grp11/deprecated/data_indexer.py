@@ -127,7 +127,7 @@ def embed_data(docs, data_indexer):
 
 def embed_data_inmemory(docs, data_indexer):
     
-    os.environ["OPENAI_API_KEY"] = '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'
+    os.environ["OPENAI_API_KEY"] = 'OPENAI_API_KEY'
     #print(f"using embedding model: {embedding_model_id}")
     
     from langchain_openai import OpenAIEmbeddings
