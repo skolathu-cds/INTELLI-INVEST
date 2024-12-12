@@ -21,7 +21,7 @@ class OpenAIAdvisorService:
         self.llm_model = "gpt-4o"        
         self.index_path = config_reader.get_property('local', 'financial_data_index')
         
-        os.environ["OPENAI_API_KEY"] = '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'
+        os.environ["OPENAI_API_KEY"] = 'OPENAI_API_KEY'
         
         print(f'LLM Model: {self.llm_model}')
         print(f'Index Path: {self.index_path}')
