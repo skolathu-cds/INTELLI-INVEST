@@ -53,7 +53,7 @@ def main():
     
     # Configure page
     st.set_page_config(
-        page_title="WiseInvest",
+        page_title="Intelli-Invest",
         page_icon="💰",
         layout="wide"
     )
@@ -67,7 +67,7 @@ def main():
         # Load and display IISC logo
         add_sidebar_logo()
         
-        st.markdown("## About WiseInvest")
+        st.markdown("## About Intelli-Invest")
         st.markdown("""
         WiseInvest is your intelligent financial companion, powered by advanced AI 
         to help you make informed investment decisions.
