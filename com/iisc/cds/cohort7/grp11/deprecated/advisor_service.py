@@ -169,7 +169,7 @@ def generate_response(query, session_id):
 
 def generate_response_new(query, session_id):
     
-    #os.environ["OPENAI_API_KEY"] = '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'
+    #os.environ["OPENAI_API_KEY"] = ''
     #global rag_chain
         
     #user_query_prompt.
