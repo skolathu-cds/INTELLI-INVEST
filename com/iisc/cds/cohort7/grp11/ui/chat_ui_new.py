@@ -69,7 +69,7 @@ def main():
         
         st.markdown("## About Intelli-Invest")
         st.markdown("""
-        WiseInvest is your intelligent financial companion, powered by advanced AI 
+        Intelli-Invest is your intelligent financial companion, powered by advanced AI 
         to help you make informed investment decisions.
         
         **Key Features:**
@@ -85,7 +85,7 @@ def main():
     # Main content - centered with max width
     st.markdown('<div class="main-content">', unsafe_allow_html=True)
     
-    st.markdown('<h1 class="main-title">WiseInvest</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-title">Intelli-Invest</h1>', unsafe_allow_html=True)
     st.markdown('<p class="subtitle">Your guide for the financial journey</p>', unsafe_allow_html=True)
     
     # Chatbot   
