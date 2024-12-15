@@ -58,7 +58,7 @@ hide_streamlit_style = """
         .viewerBadge_container__1QSob {display: none;} /* Hide the "Made with Streamlit" badge */
     </style>
 """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 def main():
     
     # Configure page
@@ -67,7 +67,9 @@ def main():
         page_icon="💰",
         layout="wide"
     )
-    
+      
+    # Hide default Streamlit UI elements
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)  
     # Load custom CSS
     file_path = os.path.join(os.path.dirname(__file__), "style.css")
     load_css(file_path) # add your path to stylesheet
