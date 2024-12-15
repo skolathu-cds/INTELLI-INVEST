@@ -49,6 +49,13 @@ def add_sidebar_logo():
     #with st.sidebar:
     st.markdown(logo_html, unsafe_allow_html=True)
 
+hide_streamlit_style = """
+    <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+    </style>
+"""
 def main():
     
     # Configure page
