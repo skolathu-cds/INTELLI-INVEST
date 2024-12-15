@@ -58,6 +58,7 @@ hide_streamlit_style = """
         .viewerBadge_container__1QSob {display: none;} /* Hide the "Made with Streamlit" badge */
     </style>
 """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 def main():
     
     # Configure page
