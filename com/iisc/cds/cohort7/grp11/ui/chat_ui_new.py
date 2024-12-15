@@ -49,11 +49,13 @@ def add_sidebar_logo():
     #with st.sidebar:
     st.markdown(logo_html, unsafe_allow_html=True)
 
+# Hide Streamlit default styling
 hide_streamlit_style = """
     <style>
         #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
         header {visibility: hidden;}
+        .viewerBadge_container__1QSob {display: none;} /* Hide the "Made with Streamlit" badge */
     </style>
 """
 def main():
